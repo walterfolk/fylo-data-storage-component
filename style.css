@@ -57,7 +57,10 @@ main {
 .box2 {
     display: flex;
     min-width: auto;
+    align-self: flex-end;
+    height: 85%;
     flex-direction: column;
+    justify-content: center;
     background-color:hsl(228, 56%, 26%);
     border-radius: 1rem;
     padding: 2rem;
@@ -86,7 +89,7 @@ main {
     clip-path: polygon(0 0, 100% 0, 100% 64%, 79% 50%, 9% 50%, 5% 48%, 2% 45%, 1% 42%, 0 38%, 0 33%);
     display: flex;
     position: absolute;
-    right: 8%;
+    right: 7%;
     top:-35%;
     overflow: hidden;
     justify-content: center;
@@ -98,9 +101,9 @@ main {
 }
 
 .box2 h1 {
-    font-size: .7rem;
+    font-size: .9rem;
     font-weight: 400;
-    margin-bottom: .5rem;
+    margin-bottom: 1rem;
     padding-right: 12rem;
 }
 
